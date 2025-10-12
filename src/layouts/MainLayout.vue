@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lpr">
+  <q-layout view="lHh Lpp lpp">
 
     <!-- Header для вех страниц-->
     <q-header elevated>
@@ -15,7 +15,7 @@
         />
 
         <q-toolbar-title>
-          Header fro every page
+          Анализ
         </q-toolbar-title>
 
       </q-toolbar>
@@ -29,10 +29,8 @@
     >
       <q-list>
 
-        <q-item-label
-          header
-        >
-          Essential Links
+        <q-item-label header>
+          Другие функции
         </q-item-label>
 
         <EssentialLink
@@ -57,21 +55,18 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'analysis result',
-    caption: 'Analysis result',
-    icon: 'monitor_heart',
+    title: 'Анализ',
+    icon: 'analytics',
     link: '/',
   },
   {
-    title: 'Personalization',
-    caption: '',
-    icon: 'favorite',
+    title: 'Персонализация',
+    icon: 'account_circle',
     link: 'personalization'
   },
   {
-    title: 'Settings',
-    caption: '',
-    icon: 'favorite',
+    title: 'Настройки',
+    icon: 'settings',
     link: 'settings'
   }
 ]
